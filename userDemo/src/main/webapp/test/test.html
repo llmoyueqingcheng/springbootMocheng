@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>菜单展示操作 </h1>
+<div class="table_box">
+	
+	<table class="list">
+		<tbody>
+			<tr>
+				<th >菜单名</th>
+				<th >操作</th>
+			</tr>
+			
+			#for(x : testList)
+			<tr>
+				<td style="text-align:left;">#(x.url)</td>
+				<td style="text-align:left;">
+					&nbsp;&nbsp;<a href="/permissionList/deletePermissionList/#(x.id)">删除</a>
+				</td>
+			</tr>
+			#end
+		</tbody>
+	</table>
+	
+	
+	<br/>
+	 </div></body></html>

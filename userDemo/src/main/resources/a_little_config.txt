@@ -1,0 +1,10 @@
+jdbcUrl=jdbc:mysql://localhost:3306/userauth?useUnicode=true&characterEncoding=UTF-8
+user=test
+password=test
+devMode = true
+
+#####--清创 ES--####
+indexServers=192.168.16.21,192.168.16.22,192.168.16.23,192.168.16.24,192.168.16.25,192.168.16.26
+indexServerRestPort=9300
+indexServersColony=192.168.16.21:9300,192.168.16.22:9300,192.168.16.23:9300,192.168.16.24:9300,192.168.16.25:9300,192.168.16.26:9300
+es_tool_indexClusterName=cluster-index
